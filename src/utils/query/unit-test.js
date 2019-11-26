@@ -434,6 +434,7 @@ QUnit.module('Unit | Util | query', () => {
         user_a: { books: [10] },
         user_b: { books: [15] },
         user_c: { books: [10] },
+        user_d: {},
       };
 
       // Act
@@ -455,6 +456,7 @@ QUnit.module('Unit | Util | query', () => {
         user_b: { books: [15] },
         user_c: { books: [10] },
         user_d: { books: [20] },
+        user_e: {},
       };
 
       // Act
